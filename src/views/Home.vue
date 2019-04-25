@@ -1,19 +1,16 @@
 <template>
     <div class="home">
-      <p>home</p>
+      <h3>Personagens</h3>
       <Characters />
-      <HelloWorld />
     </div>
 </template>
 
 <script>
-import  HelloWorld from '@/components/HelloWorld.vue'
 import  Characters from '@/components/Characters.vue'
 
 export default {
   name:'Home',
   components: {
-    HelloWorld,
     Characters
   }
 }
